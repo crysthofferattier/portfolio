@@ -1,0 +1,22 @@
+<table class="table table-striped table-sm">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let position of positionPerAsset">
+            <th>
+                {{position.symbol}}
+            </th>
+            <th style="text-align: center;">
+                {{position.total | currency: 'BRL'}}
+            </th>
+            <th style="text-align: right;">
+                {{((position.total / total) * 100).toFixed(2)}} %
+            </th>
+        </tr>
+    </tbody>
+</table>
