@@ -1,0 +1,1370 @@
+{
+    "data": [
+        {
+            "trade_date": "2023-05-18",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "6",
+            "value": "95.12",
+            "total": "570.72"
+        },
+        {
+            "trade_date": "2023-05-18",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "3",
+            "value": "95.12",
+            "total": "285.36"
+        },
+        {
+            "trade_date": "2023-05-18",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "95.12",
+            "total": "95.12"
+        },
+        {
+            "trade_date": "2023-05-19",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "1",
+            "value": "26.12",
+            "total": "26.12"
+        },
+        {
+            "trade_date": "2023-05-22",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "1",
+            "value": "8.91",
+            "total": "8.91"
+        },
+        {
+            "trade_date": "2023-05-22",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "1",
+            "value": "8.91",
+            "total": "8.91"
+        },
+        {
+            "trade_date": "2023-05-23",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "3",
+            "value": "80.49",
+            "total": "241.47"
+        },
+        {
+            "trade_date": "2023-05-23",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "3",
+            "value": "43.67",
+            "total": "131.01"
+        },
+        {
+            "trade_date": "2023-05-23",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "13",
+            "value": "8.91",
+            "total": "115.83"
+        },
+        {
+            "trade_date": "2023-05-24",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "159.1",
+            "total": "318.2"
+        },
+        {
+            "trade_date": "2023-05-24",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "4",
+            "value": "37.37",
+            "total": "149.48"
+        },
+        {
+            "trade_date": "2023-06-20",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "96.58",
+            "total": "193.16"
+        },
+        {
+            "trade_date": "2023-06-20",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "96.58",
+            "total": "193.16"
+        },
+        {
+            "trade_date": "2023-06-20",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "166",
+            "total": "332"
+        },
+        {
+            "trade_date": "2023-06-20",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "82.66",
+            "total": "330.64"
+        },
+        {
+            "trade_date": "2023-06-20",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "3",
+            "value": "50.11",
+            "total": "150.33"
+        },
+        {
+            "trade_date": "2023-06-20",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "5",
+            "value": "9.78",
+            "total": "48.9"
+        },
+        {
+            "trade_date": "2023-06-20",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "15",
+            "value": "9.78",
+            "total": "146.7"
+        },
+        {
+            "trade_date": "2023-06-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "6",
+            "value": "30.69",
+            "total": "184.14"
+        },
+        {
+            "trade_date": "2023-06-20",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "5",
+            "value": "38.09",
+            "total": "190.45"
+        },
+        {
+            "trade_date": "2023-06-21",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "3",
+            "value": "68.7",
+            "total": "206.1"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "96.6",
+            "total": "193.2"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "3",
+            "value": "96.79",
+            "total": "290.37"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "162.75",
+            "total": "162.75"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "72.95",
+            "total": "291.8"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "73.26",
+            "total": "73.26"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "3",
+            "value": "87.13",
+            "total": "261.39"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "5",
+            "value": "47.81",
+            "total": "239.05"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "15",
+            "value": "9.71",
+            "total": "145.65"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "4",
+            "value": "29.22",
+            "total": "116.88"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "3",
+            "value": "29.22",
+            "total": "87.66"
+        },
+        {
+            "trade_date": "2023-07-20",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "5",
+            "value": "36.13",
+            "total": "180.65"
+        },
+        {
+            "trade_date": "2023-08-15",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "1",
+            "value": "47.11",
+            "total": "47.11"
+        },
+        {
+            "trade_date": "2023-08-15",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "74.89",
+            "total": "149.78"
+        },
+        {
+            "trade_date": "2023-08-15",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "86.19",
+            "total": "172.38"
+        },
+        {
+            "trade_date": "2023-08-15",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "162.04",
+            "total": "162.04"
+        },
+        {
+            "trade_date": "2023-08-15",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "3",
+            "value": "9.56",
+            "total": "28.68"
+        },
+        {
+            "trade_date": "2023-08-15",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "98.86",
+            "total": "98.86"
+        },
+        {
+            "trade_date": "2023-08-15",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "98.86",
+            "total": "197.72"
+        },
+        {
+            "trade_date": "2023-08-15",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "114.99",
+            "total": "114.99"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "6",
+            "value": "47.51",
+            "total": "285.06"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "73.93",
+            "total": "147.86"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "73.93",
+            "total": "147.86"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "73.94",
+            "total": "73.94"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "86.58",
+            "total": "173.16"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "86.6",
+            "total": "173.2"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "161.46",
+            "total": "161.46"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "161.47",
+            "total": "161.47"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "26",
+            "value": "9.34",
+            "total": "242.84"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "99.1",
+            "total": "99.1"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "99.1",
+            "total": "396.4"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "99.1",
+            "total": "99.1"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "2",
+            "value": "31.35",
+            "total": "62.7"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "5",
+            "value": "31.41",
+            "total": "157.05"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "1",
+            "value": "31.42",
+            "total": "31.42"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "7",
+            "value": "34.96",
+            "total": "244.72"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "114.27",
+            "total": "114.27"
+        },
+        {
+            "trade_date": "2023-08-18",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "114.27",
+            "total": "228.54"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "6",
+            "value": "47.37",
+            "total": "284.22"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "4",
+            "value": "47.50",
+            "total": "190.00"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "5",
+            "value": "73.77",
+            "total": "368.85"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "89.78",
+            "total": "359.12"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "161.67",
+            "total": "323.34"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "32",
+            "value": "9.35",
+            "total": "299.20"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "3",
+            "value": "9.35",
+            "total": "28.05"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "23",
+            "value": "9.35",
+            "total": "215.05"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "99.45",
+            "total": "397.80"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "99.45",
+            "total": "99.45"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "99.56",
+            "total": "99.56"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "3",
+            "value": "99.56",
+            "total": "298.68"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "5",
+            "value": "34.22",
+            "total": "171.10"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "10",
+            "value": "34.39",
+            "total": "343.90"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "1",
+            "value": "34.44",
+            "total": "34.44"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "7",
+            "value": "35.32",
+            "total": "247.24"
+        },
+        {
+            "trade_date": "2023-09-20",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "3",
+            "value": "114.17",
+            "total": "342.51"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "10",
+            "value": "46.54",
+            "total": "465.40"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "1",
+            "value": "46.55",
+            "total": "46.55"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "5",
+            "value": "72.44",
+            "total": "362.21"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "72.12",
+            "total": "288.48"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "45",
+            "value": "8.80",
+            "total": "396.00"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "40",
+            "value": "8.79",
+            "total": "351.60"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "8.79",
+            "total": "17.58"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "160.70",
+            "total": "321.40"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "40",
+            "value": "8.87",
+            "total": "354.80"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "100.99",
+            "total": "403.96"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "5",
+            "value": "101.12",
+            "total": "505.61"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "20",
+            "value": "34.28",
+            "total": "685.60"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "10",
+            "value": "34.43",
+            "total": "344.30"
+        },
+        {
+            "trade_date": "2023-09-28",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "113.25",
+            "total": "452.98"
+        }
+    ]
+}
