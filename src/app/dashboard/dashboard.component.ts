@@ -1,5 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,11 +6,5 @@ import { Router } from '@angular/router';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-  year = '';
 
-  constructor(private router: Router) { }
-
-  getData(year: any){
-    this.router.navigate(['/dashboard'], {queryParams: {year: year}});
-  }
 }

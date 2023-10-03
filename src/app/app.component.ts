@@ -1,6 +1,6 @@
 import { Component, HostBinding, Input, OnInit } from '@angular/core';
 import { TransactionsService } from './transactions/transactions.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +17,8 @@ export class AppComponent implements OnInit {
   ];
 
   constructor(private transactionsService: TransactionsService,
-    private activatedRoute: ActivatedRoute) { }
+    private activatedRoute: ActivatedRoute,
+    private router: Router) { }
 
   ngOnInit(): void {
 
@@ -65,4 +66,8 @@ export class AppComponent implements OnInit {
   //       }
   //     });
   // }
+
+  getData(year: any) {
+    this.router.navigate(['/dashboard'], { queryParams: { year: year } });
+  }
 }
