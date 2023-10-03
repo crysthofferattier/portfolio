@@ -5,7 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
-assets/data
+assets/data/2023/*
 
 # Node
 /node_modules
