@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-!assets/data/
-assets/data/2023/*.json
+/src/assets/data/2023/*.json
 
 # Compiled output
 /dist
