@@ -1,6 +1,6 @@
 # Portfolio
 
-Fake portfolio for college project
+Fake Portfolio for college project
 
 Every month data will added to transactions.json and dividends.json file
 
