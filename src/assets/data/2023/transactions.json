@@ -641,25 +641,10 @@
                     "name": "FII"
                 }
             },
-            "quantity": "2",
-            "value": "73.93",
-            "total": "147.86"
-        },
-        {
-            "trade_date": "2023-08-18",
-            "asset": {
-                "id": "3",
-                "symbol": "BCFF11",
-                "name": "BTG Pactual Fundo de Fundos",
-                "asset_type": {
-                    "id": "1",
-                    "name": "FII"
-                }
-            },
-            "quantity": "1",
+            "quantity": "3",
             "value": "73.94",
-            "total": "73.94"
-        },
+            "total": "221.82"
+        },        
         {
             "trade_date": "2023-08-18",
             "asset": {
@@ -687,8 +672,8 @@
                 }
             },
             "quantity": "2",
-            "value": "86.6",
-            "total": "173.2"
+            "value": "86.60",
+            "total": "173.20"
         },
         {
             "trade_date": "2023-08-18",
@@ -747,8 +732,8 @@
                 }
             },
             "quantity": "1",
-            "value": "99.1",
-            "total": "99.1"
+            "value": "99.10",
+            "total": "99.10"
         },
         {
             "trade_date": "2023-08-18",
@@ -762,8 +747,8 @@
                 }
             },
             "quantity": "4",
-            "value": "99.1",
-            "total": "396.4"
+            "value": "99.10",
+            "total": "396.40"
         },
         {
             "trade_date": "2023-08-18",
@@ -777,8 +762,8 @@
                 }
             },
             "quantity": "1",
-            "value": "99.1",
-            "total": "99.1"
+            "value": "99.10",
+            "total": "99.10"
         },
         {
             "trade_date": "2023-08-18",
@@ -793,7 +778,7 @@
             },
             "quantity": "2",
             "value": "31.35",
-            "total": "62.7"
+            "total": "62.70"
         },
         {
             "trade_date": "2023-08-18",
@@ -807,8 +792,8 @@
                 }
             },
             "quantity": "5",
-            "value": "31.41",
-            "total": "157.05"
+            "value": "31.42",
+            "total": "157.10"
         },
         {
             "trade_date": "2023-08-18",

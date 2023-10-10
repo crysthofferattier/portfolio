@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   portfolioTotal = 0.00;
   portfolioTotalByYear = 0.00;
   currentYear = (new Date()).getFullYear();  
-  year = [
+  portfolioAllYears = [
     2023,
     //2024
   ];
@@ -26,12 +26,14 @@ export class AppComponent implements OnInit {
   }
 
   getTotalByYear() {
-    this.activatedRoute.queryParams.subscribe(params => {      
+    this.activatedRoute.queryParams.subscribe(params => {
       let year = params['year'];
 
       if (year === undefined) {
         year = (new Date()).getFullYear();
       }
+
+      this.currentYear = year;
 
       this.transactionsService.list(year)
         .subscribe((rsp: any = {}) => {
@@ -47,8 +49,8 @@ export class AppComponent implements OnInit {
   getTotal() {
     this.portfolioTotal = 0.00;
 
-    for (let index = 0; index < this.year.length; index++) {
-      this.transactionsService.list(this.year[index])
+    for (let index = 0; index < this.portfolioAllYears.length; index++) {
+      this.transactionsService.list(this.portfolioAllYears[index])
         .subscribe((rsp: any = {}) => {
           for (let index = 0; index < rsp.data.length; index++) {
             this.portfolioTotal += Number(rsp.data[index].total);
@@ -58,9 +60,8 @@ export class AppComponent implements OnInit {
   }
 
   getData(year: any) {
-    let pathName = location.pathname;
-    console.log(pathName);
-    //this.router.navigate(['/dashboard'], { queryParams: { year: year } });
+    let pathName = location.pathname;    
+    
     this.router.navigate([pathName], { queryParams: { year: year } });
   }
 }

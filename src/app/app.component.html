@@ -16,10 +16,9 @@
                 </li>
                 <li class="nav-item"><a href="/dividends?year={{currentYear}}" class="nav-link">Dividends</a></li>
                 <li class="nav-item">
-                    <select class="form-select form-select-lg mb-3" (ngModelChange)="getData($event)"
-                        [(ngModel)]="year">
-                        <option value="2023" selected>2023</option>
-                        <option value="2024">2024</option>
+                    <select class="form-select" (ngModelChange)="getData($event)"
+                        [(ngModel)]="currentYear">
+                            <option *ngFor='let year of portfolioAllYears' [selected]="year === currentYear" [value]="year">{{year}}</option>                        
                     </select>
                 </li>
             </ul>
