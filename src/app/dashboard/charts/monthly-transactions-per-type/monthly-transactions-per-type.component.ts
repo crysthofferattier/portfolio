@@ -58,8 +58,7 @@ export class MonthlyTransactionsPerTypeComponent implements OnInit {
 
   getMonthlyTransactions(year: any) {
     this.transactionsService.list(year)
-      .subscribe((rsp: any = {}) => {
-        const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      .subscribe((rsp: any = {}) => {        
         let transactions = rsp.data;
 
         this.chartOptions.data[0].dataPoints = [
@@ -93,80 +92,13 @@ export class MonthlyTransactionsPerTypeComponent implements OnInit {
         ];
 
         for (let index = 0; index < transactions.length; index++) {
-          const element = transactions[index];
-          const transactionDate = new Date(element.trade_date);
+          let element = transactions[index];
+          let transactionDate = new Date(element.trade_date);
 
-          switch (month[transactionDate.getMonth()]) {
-            case "January":
-              if (element.asset.asset_type.id === "1") { //FIIs
-                this.chartOptions.data[0].dataPoints[0].y += Number(element.total);
-              } else if (element.asset.asset_type.id === "2") {
-                this.chartOptions.data[1].dataPoints[0].y += Number(element.total);
-              }
-              break;
-            case "February":
-              this.chartOptions.data[0].dataPoints[1].y += Number(element.total);
-              break;
-            case "March":
-              if (element.asset.asset_type.id === "1") { //FIIs
-                this.chartOptions.data[0].dataPoints[2].y += Number(element.total);
-              } else if (element.asset.asset_type.id === "2") {
-                this.chartOptions.data[1].dataPoints[2].y += Number(element.total);
-              }
-              break;
-            case "April":
-              if (element.asset.asset_type.id === "1") { //FIIs
-                this.chartOptions.data[0].dataPoints[3].y += Number(element.total);
-              } else if (element.asset.asset_type.id === "2") {
-                this.chartOptions.data[1].dataPoints[3].y += Number(element.total);
-              }
-              break;
-            case "May":
-              if (element.asset.asset_type.id === "1") { //FIIs
-                this.chartOptions.data[0].dataPoints[4].y += Number(element.total);
-              } else if (element.asset.asset_type.id === "2") {
-                this.chartOptions.data[1].dataPoints[4].y += Number(element.total);
-              }
-              break;
-            case "June":
-              if (element.asset.asset_type.id === "1") { //FIIs
-                this.chartOptions.data[0].dataPoints[5].y += Number(element.total);
-              } else if (element.asset.asset_type.id === "2") {
-                this.chartOptions.data[1].dataPoints[5].y += Number(element.total);
-              }
-              break;
-            case "July":
-              if (element.asset.asset_type.id === "1") { //FIIs
-                this.chartOptions.data[0].dataPoints[6].y += Number(element.total);
-              } else if (element.asset.asset_type.id === "2") {
-                this.chartOptions.data[1].dataPoints[6].y += Number(element.total);
-              }
-              break;
-            case "August":
-              if (element.asset.asset_type.id === "1") { //FIIs
-                this.chartOptions.data[0].dataPoints[7].y += Number(element.total);
-              } else if (element.asset.asset_type.id === "2") {
-                this.chartOptions.data[1].dataPoints[7].y += Number(element.total);
-              }
-              break;
-            case "September":
-              if (element.asset.asset_type.id === "1") { //FIIs
-                this.chartOptions.data[0].dataPoints[8].y += Number(element.total);
-              } else if (element.asset.asset_type.id === "2") {
-                this.chartOptions.data[1].dataPoints[8].y += Number(element.total);
-              }
-              break;
-            case "October":
-              this.chartOptions.data[0].dataPoints[9].y += Number(element.total);
-              break;
-            case "November":
-              this.chartOptions.data[0].dataPoints[10].y += Number(element.total);
-              break;
-            case "December":
-              this.chartOptions.data[0].dataPoints[11].y += Number(element.total);
-              break;
-            default:
-            // code block
+          if (element.asset.asset_type.id === "1") { //FIIs
+            this.chartOptions.data[0].dataPoints[transactionDate.getMonth()].y += Number(element.total);
+          } else {
+            this.chartOptions.data[1].dataPoints[transactionDate.getMonth()].y += Number(element.total);
           }
         }
 

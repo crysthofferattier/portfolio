@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class AppComponent implements OnInit {
   portfolioTotal = 0.00;
   portfolioTotalByYear = 0.00;
-  currentYear = (new Date()).getFullYear();
+  currentYear = (new Date()).getFullYear();  
   year = [
     2023,
     //2024
@@ -21,7 +21,6 @@ export class AppComponent implements OnInit {
     private router: Router) { }
 
   ngOnInit(): void {
-
     this.getTotalByYear();
     this.getTotal();
   }
@@ -58,16 +57,10 @@ export class AppComponent implements OnInit {
     }
   }
 
-  // getTransactions(year: any) {
-  //   this.transactionsService.list(year)
-  //     .subscribe((rsp: any = {}) => {
-  //       for (let index = 0; index < rsp.data.length; index++) {
-  //         this.portfolioTotal += Number(rsp.data[index].total);
-  //       }
-  //     });
-  // }
-
   getData(year: any) {
-    this.router.navigate(['/dashboard'], { queryParams: { year: year } });
+    let pathName = location.pathname;
+    console.log(pathName);
+    //this.router.navigate(['/dashboard'], { queryParams: { year: year } });
+    this.router.navigate([pathName], { queryParams: { year: year } });
   }
 }

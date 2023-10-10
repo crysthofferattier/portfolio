@@ -98,5 +98,15 @@
             "id": "1",
             "name": "FII"
         }
+    },
+    "asset": {
+        "id": "11",
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "user_id": "1",
+        "asset_type": {
+            "id": "3",
+            "name": "Digital Currency"
+        }
     }
 }

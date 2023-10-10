@@ -449,6 +449,81 @@
             },
             "share": "53",
             "value": "1.06"
+        },        
+        {
+            "date": "2023-10-13",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "46",
+            "value": "50.60"
+        },
+        {
+            "date": "2023-10-16",
+            "asset": {
+                "id": "10",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "11",
+            "value": "8.58"
+        },
+        {
+            "date": "2023-10-16",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "29",
+            "value": "16.24"
+        },
+        {
+            "date": "2023-10-16",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "12",
+            "value": "13.20"
+        },
+        {
+            "date": "2023-10-20",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "0",
+            "value": "0.00"
         }
     ]
 }
