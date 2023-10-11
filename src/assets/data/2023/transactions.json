@@ -1350,6 +1350,21 @@
             "quantity": "4",
             "value": "113.25",
             "total": "452.98"
+        },
+        {
+            "trade_date": "2023-10-11",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "1",
+            "value": "8.62",
+            "total": "8.62"
         }
     ]
 }
