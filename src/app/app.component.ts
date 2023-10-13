@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   currentYear = (new Date()).getFullYear();  
   portfolioAllYears = [
     2023,
-    //2024
+    2024
   ];
 
   constructor(private transactionsService: TransactionsService,
