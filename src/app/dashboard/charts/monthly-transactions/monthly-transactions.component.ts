@@ -43,13 +43,12 @@ export class MonthlyTransactionsComponent implements OnInit {
 
   getChartInstance(chart: object) {
     this.chart = chart;
-    this.getMonthlyTransactions(this.year);
+    //this.getMonthlyTransactions(this.year);
   }
 
   getMonthlyTransactions(year: any) {
     this.transactionsService.list(year)
       .subscribe((rsp: any = {}) => {
-        const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         let transactions = rsp.data;
 
         this.chartOptions.data[0].dataPoints = [
@@ -71,46 +70,7 @@ export class MonthlyTransactionsComponent implements OnInit {
           const element = transactions[index];
           const transactionDate = new Date(element.trade_date);
 
-          switch (month[transactionDate.getMonth()]) {
-            case "January":
-              this.chartOptions.data[0].dataPoints[0].y += Number(element.total);
-              break;
-            case "February":
-              this.chartOptions.data[0].dataPoints[1].y += Number(element.total);
-              break;
-            case "March":
-              this.chartOptions.data[0].dataPoints[2].y += Number(element.total);
-              break;
-            case "April":
-              this.chartOptions.data[0].dataPoints[3].y += Number(element.total);
-              break;
-            case "May":
-              this.chartOptions.data[0].dataPoints[4].y += Number(element.total);
-              break;
-            case "June":
-              this.chartOptions.data[0].dataPoints[5].y += Number(element.total);
-              break;
-            case "July":
-              this.chartOptions.data[0].dataPoints[6].y += Number(element.total);
-              break;
-            case "August":
-              this.chartOptions.data[0].dataPoints[7].y += Number(element.total);
-              break;
-            case "September":
-              this.chartOptions.data[0].dataPoints[8].y += Number(element.total);
-              break;
-            case "October":
-              this.chartOptions.data[0].dataPoints[9].y += Number(element.total);
-              break;
-            case "November":
-              this.chartOptions.data[0].dataPoints[10].y += Number(element.total);
-              break;
-            case "December":
-              this.chartOptions.data[0].dataPoints[11].y += Number(element.total);
-              break;
-            default:
-            // code block
-          }
+          this.chartOptions.data[0].dataPoints[transactionDate.getMonth()].y += Number(element.total);
         }
         const dataTablePointsLen = this.chartOptions.data[0].dataPoints.length;
 
