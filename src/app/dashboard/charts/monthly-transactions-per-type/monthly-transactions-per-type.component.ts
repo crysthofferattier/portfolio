@@ -25,6 +25,7 @@ export class MonthlyTransactionsPerTypeComponent implements OnInit {
       name: "FIIs",
       legendText: "FIIs",
       showInLegend: true,
+      color: "#52b921",
       dataPoints: [
         { label: "", y: 0, type_id: 0 }
       ]
@@ -33,6 +34,7 @@ export class MonthlyTransactionsPerTypeComponent implements OnInit {
       name: "Stocks",
       legendText: "Stocks",
       showInLegend: true,
+      color: "#5473d2",
       dataPoints: [
         { label: "", y: 0, type_id: 0 }
       ]
@@ -58,7 +60,7 @@ export class MonthlyTransactionsPerTypeComponent implements OnInit {
 
   getMonthlyTransactions(year: any) {
     this.transactionsService.list(year)
-      .subscribe((rsp: any = {}) => {        
+      .subscribe((rsp: any = {}) => {
         let transactions = rsp.data;
 
         this.chartOptions.data[0].dataPoints = [

@@ -25,6 +25,7 @@ export class MonthlyDividendsPerTypeComponent implements OnInit {
       name: "FIIs",
       legendText: "FIIs",
       showInLegend: true,
+      color: "#52b921",
       dataPoints: [
         { label: "", y: 0, type_id: 0 }
       ]
@@ -33,6 +34,7 @@ export class MonthlyDividendsPerTypeComponent implements OnInit {
       name: "Stocks",
       legendText: "Stocks",
       showInLegend: true,
+      color: "#5473d2",
       dataPoints: [
         { label: "", y: 0, type_id: 0 }
       ]
