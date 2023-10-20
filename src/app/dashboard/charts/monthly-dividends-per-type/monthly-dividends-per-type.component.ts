@@ -76,6 +76,7 @@ export class MonthlyDividendsPerTypeComponent implements OnInit {
           { label: "Dec", y: 0, type_id: 0 },
         ];
 
+
         this.chartOptions.data[1].dataPoints = [
           { label: "Jan", y: 0, type_id: 0 },
           { label: "Fev", y: 0, type_id: 0 },
@@ -99,10 +100,10 @@ export class MonthlyDividendsPerTypeComponent implements OnInit {
             this.chartOptions.data[0].dataPoints[transactionDate.getMonth()].y += Number(element.value);
           } else {
             this.chartOptions.data[1].dataPoints[transactionDate.getMonth()].y += Number(element.value);
-          }          
+          }
         }
 
         this.chart.render();
       });
-  }  
+  }
 }

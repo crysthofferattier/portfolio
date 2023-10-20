@@ -14,14 +14,14 @@ export class MonthlyDividendsComponent {
     title: {
       text: "Dividends"
     },
-    animationEnabled: true,
+    animationEnabled: false,
     axisY: {
       includeZero: true
     },
     data: [{
-      type: "column", //change type to bar, line, area, pie, etc
+      type: "column",
       yValueFormatString: "$#,##0.00",
-      color: "#01b8aa",
+      color: "#0c914a",
       dataPoints: [
         { label: "Jun", y: 0 },
         { label: "Jul", y: 0 },

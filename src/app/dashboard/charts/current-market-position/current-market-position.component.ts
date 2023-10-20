@@ -12,16 +12,16 @@ export class CurrentMarketPositionComponent implements OnInit {
   chartOptions = {
     animationEnabled: true,
     title: {
-      text: "Market Position"
+      text: "Market Position",      
     },
     data: [{
       type: "pie",
-      startAngle: -90,
-      indexLabel: "{name}: ${total}/{y}",
-      yValueFormatString: "#,###.##'%'",
+      startAngle: -90,      
+      indexLabel: "{name}: {total}/{y}",
+      yValueFormatString: "#,###.##'%'",      
       dataPoints: [
-        { y: 0, name: "FIIs", total: 0 },
-        { y: 0, name: "Stocks", total: 0 }
+        { y: 0, name: "FIIs", total: "" },
+        { y: 0, name: "Stocks", total: "" }
       ]
     }]
   };
@@ -59,9 +59,14 @@ export class CurrentMarketPositionComponent implements OnInit {
         this.chartOptions.data[0].dataPoints[0].y = Number(totalFIIs / (totalFIIs + totalStocks) * 100);
         this.chartOptions.data[0].dataPoints[1].y = Number(totalStocks / (totalFIIs + totalStocks) * 100);
 
-        this.chartOptions.data[0].dataPoints[0].total = Number(totalFIIs);
-        this.chartOptions.data[0].dataPoints[1].total = Number(totalStocks);
-
+        this.chartOptions.data[0].dataPoints[0].total = Number(totalFIIs).toLocaleString('pt-BR', {
+          style: 'currency',
+          currency: 'BRL',
+        });
+        this.chartOptions.data[0].dataPoints[1].total = Number(totalStocks).toLocaleString('pt-BR', {
+          style: 'currency',
+          currency: 'BRL',
+        });
         this.chart.render();
       });
   }

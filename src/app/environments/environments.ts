@@ -18,5 +18,9 @@ export const environment = {
         { "id": "7", "symbol": "PETR4" },
         { "id": "8", "symbol": "TAEE11" },
         { "id": "9", "symbol": "XPLG11" }
+    ],
+    portfolioAllYears: [
+        2023,
+        //2024
     ]
 };

@@ -1,6 +1,7 @@
-import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TransactionsService } from './transactions/transactions.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { environment } from './environments/environments';
 
 @Component({
   selector: 'app-root',
@@ -10,11 +11,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class AppComponent implements OnInit {
   portfolioTotal = 0.00;
   portfolioTotalByYear = 0.00;
-  currentYear = (new Date()).getFullYear();  
-  portfolioAllYears = [
-    2023,
-    2024
-  ];
+  currentYear = (new Date()).getFullYear();
+  env = environment;
+  portfolioAllYears = this.env.portfolioAllYears;
 
   constructor(private transactionsService: TransactionsService,
     private activatedRoute: ActivatedRoute,

@@ -3,18 +3,19 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "ng serve",
-      "type": "chrome",
+      "name": "Launch index.html",
+      "type": "firefox",
       "request": "launch",
-      "preLaunchTask": "npm: start",
-      "url": "http://localhost:4200/"
+      "reAttach": true,
+      "file": "${workspaceFolder}/index.html"
     },
     {
-      "name": "ng test",
-      "type": "chrome",
+      "name": "Launch localhost",
+      "type": "firefox",
       "request": "launch",
-      "preLaunchTask": "npm: test",
-      "url": "http://localhost:9876/debug.html"
-    }
+      "reAttach": true,
+      "url": "http://localhost/index.html",
+      "webRoot": "${workspaceFolder}"
+    }    
   ]
 }
