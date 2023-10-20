@@ -11,7 +11,6 @@ export class CurrentMarketPositionComponent implements OnInit {
   chart: any;
   chartOptions = {
     animationEnabled: true,
-    theme: "light2",
     title: {
       text: "Market Position",
     },
