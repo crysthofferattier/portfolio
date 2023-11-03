@@ -21,7 +21,7 @@ export class MonthlyDividendsComponent {
     data: [{
       type: "column",
       yValueFormatString: "$#,##0.00",
-      color: "#5473d2",
+      color: "#4f81bc",
       dataPoints: [
         { label: "Jun", y: 0 },
         { label: "Jul", y: 0 },

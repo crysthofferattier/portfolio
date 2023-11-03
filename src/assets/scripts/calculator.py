@@ -11,7 +11,7 @@ def read_file(file: str) -> json:
 
 
 def calculate_total_per_month(transactions: json) -> None:
-    months = ["-05-", "-06-", "-07-", "-08-", "-09-", "-10-"]
+    months = ["-05-", "-06-", "-07-", "-08-", "-09-", "-10-", "-11-"]
 
     for month in months:
         total = 0.00
@@ -72,7 +72,7 @@ def get_transaction_total(month, transaction) -> float:
         return 0.00
 
 
-def main():
+def main() -> None:
     transactions = read_file(FILE)['data']
 
     calculate_total_per_month(transactions)

@@ -539,6 +539,81 @@
             },
             "share": "288",
             "value": "15.55"
+        },
+        {
+            "date": "2023-11-21",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "22",
+            "value": "4.60"
+        },
+        {
+            "date": "2023-11-21",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "22",
+            "value": "6.83"
+        },
+        {
+            "date": "2023-11-16",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "15",
+            "value": "16.50"
+        },
+        {
+            "date": "2023-11-16",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "15",
+            "value": "11.70"
+        },
+        {
+            "date": "2023-11-14",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "52",
+            "value": "57.72"
         }
     ]
 }

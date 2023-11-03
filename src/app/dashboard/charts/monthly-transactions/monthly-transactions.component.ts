@@ -21,7 +21,7 @@ export class MonthlyTransactionsComponent implements OnInit {
     data: [{
       type: "column", //change type to bar, line, area, pie, etc
       yValueFormatString: "$#,##0.00",
-      color: "#52b921",
+      color: "#c0504e",
       dataPoints: [
         { label: "May", y: 0 },
         { label: "Jun", y: 0 },
