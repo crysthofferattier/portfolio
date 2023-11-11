@@ -32,11 +32,11 @@ export class MarketPositionPerAssetComponent implements OnInit {
           { "id": "4", "symbol": "CPTS11", "total": 0 },
           { "id": "3", "symbol": "BCFF11", "total": 0 },
           { "id": "2", "symbol": "HGLG11", "total": 0 },
+          { "id": "9", "symbol": "XPLG11", "total": 0 },
           { "id": "7", "symbol": "PETR4", "total": 0 },                        
           { "id": "5", "symbol": "BBAS3", "total": 0 },
           { "id": "6", "symbol": "ITSA4", "total": 0 },          
-          { "id": "8", "symbol": "TAEE11", "total": 0 },
-          { "id": "9", "symbol": "XPLG11", "total": 0 }
+          { "id": "8", "symbol": "TAEE11", "total": 0 }          
         ];// manually sorted
 
         for (let index = 0; index < transactions.length; index++) {

@@ -614,6 +614,96 @@
             },
             "share": "52",
             "value": "57.72"
+        },
+        {
+            "date": "2023-11-16",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "51",
+            "value": "28.56"
+        },
+        {
+            "date": "2023-11-30",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "57",
+            "value": "33.25"
+        },
+        {
+            "date": "2023-11-30",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "57",
+            "value": "5.81"
+        },
+        {
+            "date": "2023-12-15",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "58",
+            "value": "28.69"
+        },
+        {
+            "date": "2023-12-15",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "58",
+            "value": "0.69"
+        },
+        {
+            "date": "2023-12-15",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "2",
+            "value": "12.64"
         }
     ]
 }

@@ -21,6 +21,6 @@ export const environment = {
     ],
     portfolioAllYears: [
         2023,
-        //2024
+        2024
     ]
 };
