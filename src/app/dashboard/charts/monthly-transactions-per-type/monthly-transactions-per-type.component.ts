@@ -102,6 +102,9 @@ export class MonthlyTransactionsPerTypeComponent implements OnInit {
           }
         }
 
+        this.chartOptions.data[0].dataPoints = this.chartOptions.data[0].dataPoints.filter(e => e.y);
+        this.chartOptions.data[1].dataPoints = this.chartOptions.data[1].dataPoints.filter(e => e.y);
+
         this.chart.render();
       });
   }

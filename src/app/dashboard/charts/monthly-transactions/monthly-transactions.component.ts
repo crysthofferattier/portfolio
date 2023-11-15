@@ -72,13 +72,8 @@ export class MonthlyTransactionsComponent implements OnInit {
 
           this.chartOptions.data[0].dataPoints[transactionDate.getMonth()].y += Number(element.total);
         }
-        const dataTablePointsLen = this.chartOptions.data[0].dataPoints.length;
-
-        for (let index = 0; index < dataTablePointsLen; index++) {
-          if (this.chartOptions.data[0].dataPoints[index] !== undefined && this.chartOptions.data[0].dataPoints[index].y === 0) {
-            this.chartOptions.data[0].dataPoints.splice(index, 1);
-          }
-        }
+        
+        this.chartOptions.data[0].dataPoints = this.chartOptions.data[0].dataPoints.filter(e => e.y);
 
         this.chart.render();
       });

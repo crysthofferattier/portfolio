@@ -704,6 +704,21 @@
             },
             "share": "2",
             "value": "12.64"
+        },
+        {
+            "date": "2023-11-21",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "435",
+            "value": "26.54"
         }
     ]
 }

@@ -23,9 +23,7 @@ export class MonthlyDividendsComponent {
       yValueFormatString: "$#,##0.00",
       color: "#4f81bc",
       dataPoints: [
-        { label: "Jun", y: 0 },
-        { label: "Jul", y: 0 },
-        { label: "Aug", y: 0 },
+        { label: "Jun", y: 0 }
       ]
     }]
   }
@@ -50,6 +48,12 @@ export class MonthlyDividendsComponent {
         const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         let dividends = rsp.data;
 
+        // dividends.sort((a: any, b: any) => {
+        //   return new Date(a.date).valueOf() - new Date(b.date).valueOf(); // ascending
+        // });
+
+        // console.log(dividends);
+
         this.chartOptions.data[0].dataPoints = [
           { label: "Jan", y: 0 },
           { label: "Fev", y: 0 },
@@ -72,13 +76,7 @@ export class MonthlyDividendsComponent {
           this.chartOptions.data[0].dataPoints[transactionDate.getMonth()].y += Number(element.value);
         }
 
-        const dataTablePointsLen = this.chartOptions.data[0].dataPoints.length;
-
-        for (let index = 0; index < dataTablePointsLen; index++) {
-          if (this.chartOptions.data[0].dataPoints[index] !== undefined && this.chartOptions.data[0].dataPoints[index].y === 0) {
-            this.chartOptions.data[0].dataPoints.splice(index, 1);
-          }
-        }
+        this.chartOptions.data[0].dataPoints = this.chartOptions.data[0].dataPoints.filter(e => e.y);
 
         this.chart.render();
       });
