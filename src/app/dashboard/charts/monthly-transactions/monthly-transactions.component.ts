@@ -21,7 +21,7 @@ export class MonthlyTransactionsComponent implements OnInit {
     data: [{
       type: "column", //change type to bar, line, area, pie, etc
       yValueFormatString: "$#,##0.00",
-      color: "#c0504e",
+      color: "#0e9e70",
       dataPoints: [
         { label: "May", y: 0 },
         { label: "Jun", y: 0 },
@@ -42,8 +42,7 @@ export class MonthlyTransactionsComponent implements OnInit {
   }
 
   getChartInstance(chart: object) {
-    this.chart = chart;
-    //this.getMonthlyTransactions(this.year);
+    this.chart = chart;    
   }
 
   getMonthlyTransactions(year: any) {
