@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { environment } from 'src/app/environments/environments';
 import { TransactionsService } from 'src/app/transactions/transactions.service';
 
 @Component({
@@ -8,8 +7,7 @@ import { TransactionsService } from 'src/app/transactions/transactions.service';
   templateUrl: './market-position-per-asset.component.html',
   styleUrls: ['./market-position-per-asset.component.css']
 })
-export class MarketPositionPerAssetComponent implements OnInit {
-  assets = environment.assets;
+export class MarketPositionPerAssetComponent implements OnInit {  
   positionPerAsset: any = [];
   total = 0;
 
