@@ -48,11 +48,11 @@ export class MonthlyDividendsComponent {
         const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         let dividends = rsp.data;
 
-        // dividends.sort((a: any, b: any) => {
-        //   return new Date(a.date).valueOf() - new Date(b.date).valueOf(); // ascending
-        // });
+        dividends.sort((a: any, b: any) => {
+          return new Date(a.date).valueOf() - new Date(b.date).valueOf(); // ascending
+        });
 
-        // console.log(dividends);
+        console.log(dividends);
 
         this.chartOptions.data[0].dataPoints = [
           { label: "Jan", y: 0 },

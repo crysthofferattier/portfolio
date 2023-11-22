@@ -19,6 +19,7 @@ def calculate_total_per_month(transactions: json) -> None:
         itsa4 = 0.00
         petr4 = 0.00
         taee11 = 0.00
+        sanb11 = 0.00
         bcff11 = 0.00
         cpts11 = 0.00
         hglg11 = 0.00
@@ -37,6 +38,8 @@ def calculate_total_per_month(transactions: json) -> None:
                     petr4 += get_transaction_total(month, transaction)
                 case "TAEE11":
                     taee11 += get_transaction_total(month, transaction)
+                case "SANB11":
+                    sanb11 += get_transaction_total(month, transaction)
                 case "BCFF11":
                     bcff11 += get_transaction_total(month, transaction)
                 case "CPTS11":
@@ -55,6 +58,7 @@ def calculate_total_per_month(transactions: json) -> None:
         print(f"ITSA4:  R$ {itsa4:.2f}")
         print(f"PETR4:  R$ {petr4:.2f}")
         print(f"TAEE11: R$ {taee11:.2f}")
+        print(f"SANB11: R$ {sanb11:.2f}")
         print(f"BCFF11: R$ {bcff11:.2f}")
         print(f"CPTS11: R$ {cpts11:.2f}")
         print(f"HGLG11: R$ {hglg11:.2f}")

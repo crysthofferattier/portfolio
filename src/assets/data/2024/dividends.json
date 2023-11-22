@@ -1,6 +1,66 @@
 {
     "data": [
         {
+            "date": "2024-01-02",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "256",
+            "value": "5.12"
+        },
+        {
+            "date": "2024-02-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "76",
+            "value": "18.48"
+        },
+        {
+            "date": "2024-02-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "76",
+            "value": "27.72"
+        },
+        {
+            "date": "2024-03-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "76",
+            "value": "51.09"
+        },
+        {
             "date": "2024-12-30",
             "asset": {
                 "id": "6",

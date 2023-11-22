@@ -90,6 +90,16 @@
         }
     },
     "asset": {
+        "id": "10",
+        "symbol": "SANB11",
+        "name": "Banco Santander Brasil SA Unit",
+        "user_id": "1",
+        "asset_type": {
+            "id": "2",
+            "name": "Stock"
+        }
+    },
+    "asset": {
         "id": "11",
         "symbol": "BTC",
         "name": "Bitcoin",

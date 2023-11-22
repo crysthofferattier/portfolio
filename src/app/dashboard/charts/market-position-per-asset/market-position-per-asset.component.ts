@@ -34,7 +34,8 @@ export class MarketPositionPerAssetComponent implements OnInit {
           { "id": "7", "symbol": "PETR4", "total": 0 },                        
           { "id": "5", "symbol": "BBAS3", "total": 0 },
           { "id": "6", "symbol": "ITSA4", "total": 0 },          
-          { "id": "8", "symbol": "TAEE11", "total": 0 }          
+          { "id": "8", "symbol": "TAEE11", "total": 0 },
+          { "id": "10", "symbol": "SANB11F", "total": 0 }
         ];// manually sorted
 
         for (let index = 0; index < transactions.length; index++) {
@@ -68,6 +69,9 @@ export class MarketPositionPerAssetComponent implements OnInit {
               break;
             case String(this.positionPerAsset[8].id):
               this.positionPerAsset[8].total += Number(element.total);
+              break;
+            case String(this.positionPerAsset[9].id):
+              this.positionPerAsset[9].total += Number(element.total);
               break;
             default:
               break;
