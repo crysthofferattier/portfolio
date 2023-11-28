@@ -719,6 +719,21 @@
             },
             "share": "435",
             "value": "26.54"
+        },
+        {
+            "date": "2023-12-28",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "65",
+            "value": "18.91"
         }
     ]
 }
