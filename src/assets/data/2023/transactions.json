@@ -1909,6 +1909,215 @@
             "quantity": "9",
             "value": "36.67",
             "total": "330.03"
+        },
+        {
+            "__comment": "Bonus",
+            "trade_date": "2023-11-29",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "14",
+            "value": "17.92",
+            "total": "250.88"
+        },
+        {
+            "trade_date": "2023-12-04",
+            "asset": {
+                "id": "11",
+                "symbol": "RURA11",
+                "name": "Itau Asset Rural Fiagro Imobiliario",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "10.62",
+            "total": "42.48"
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": 10,
+            "value": 101.14,
+            "total": 1011.4
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": 62,
+            "value": 7.97,
+            "total": 494.14
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": 3,
+            "value": 160.76,
+            "total": 482.28
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": 53,
+            "value": 9.35,
+            "total": 495.55
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": 4,
+            "value": 105.78,
+            "total": 423.12
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": 8,
+            "value": 54.25,
+            "total": 434
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": 9,
+            "value": 36.45,
+            "total": 328.05
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": 10,
+            "value": 34.86,
+            "total": 348.6
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": 46,
+            "value": 9.75,
+            "total": 448.5
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": 5,
+            "value": 101.12,
+            "total": 505.6
+        },
+        {
+            "trade_date": "2023-12-05",
+            "asset": {
+                "id": "11",
+                "symbol": "RURA11",
+                "name": "Itau Asset Rural Fiagro Imobiliario",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": 3,
+            "value": 10.64,
+            "total": 31.92
         }
     ]
 }

@@ -101,6 +101,16 @@
     },
     "asset": {
         "id": "11",
+        "symbol": "RURA11",
+        "name": "Itau Asset Rural Fiagro Imobiliario",
+        "user_id": "1",
+        "asset_type": {
+            "id": "1",
+            "name": "FII"
+        }
+    },
+    "asset": {
+        "id": "XXXXXXX",
         "symbol": "BTC",
         "name": "Bitcoin",
         "user_id": "1",

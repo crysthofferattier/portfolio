@@ -11,7 +11,7 @@ def read_file(file: str) -> json:
 
 
 def calculate_total_per_month(transactions: json) -> None:
-    months = ["-05-", "-06-", "-07-", "-08-", "-09-", "-10-", "-11-"]
+    months = ["-05-", "-06-", "-07-", "-08-", "-09-", "-10-", "-11-", "-12-"]
 
     for month in months:
         total = 0.00
@@ -25,6 +25,7 @@ def calculate_total_per_month(transactions: json) -> None:
         hglg11 = 0.00
         kncr11 = 0.00
         xplg11 = 0.00
+        RURA11 = 0.00    
 
         for transaction in transactions:
             symbol = transaction['asset']['symbol']
@@ -50,8 +51,10 @@ def calculate_total_per_month(transactions: json) -> None:
                     kncr11 += get_transaction_total(month, transaction)
                 case "XPLG11":
                     xplg11 += get_transaction_total(month, transaction)
+                case "RURA11":
+                    RURA11 += get_transaction_total(month, transaction)
 
-            total += float(transaction['total'])
+            total += float(transaction['total'])            
 
         print(month)
         print(f"BBAS3:  R$ {bbas3:.2f}")
@@ -64,6 +67,7 @@ def calculate_total_per_month(transactions: json) -> None:
         print(f"HGLG11: R$ {hglg11:.2f}")
         print(f"KNCR11: R$ {kncr11:.2f}")
         print(f"XPLG11: R$ {xplg11:.2f}")
+        print(f"RURA11: R$ {RURA11:.2f}")
         print()
 
     print(f"TOTAL: R$ {total:.2f}")

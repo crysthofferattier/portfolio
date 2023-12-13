@@ -19,7 +19,7 @@
         <div class="card text-bg-success mb-3">
             <div class="card-body">
                 <h1 class="card-title">Total</h1>
-                <h3 class="card-subtitle mb-2">{{ total | currency: 'BRL' }}</h3>
+                <h3 class="card-subtitle mb-2">{{ total | currency: 'BRL' }} / {{ (total/12) | currency: 'BRL' }}</h3>
             </div>
         </div>
     </div>

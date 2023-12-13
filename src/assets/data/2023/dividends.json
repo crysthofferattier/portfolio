@@ -31,21 +31,6 @@
             "value": "0.36"
         },
         {
-            "date": "2023-06-30",
-            "asset": {
-                "id": "5",
-                "symbol": "BBAS3",
-                "name": "Banco do Brasil",
-                "user_id": "1",
-                "asset_type": {
-                    "id": "2",
-                    "name": "Stock"
-                }
-            },
-            "share": "03",
-            "value": "0.86"
-        },
-        {
             "date": "2023-06-14",
             "asset": {
                 "id": "1",
@@ -89,6 +74,21 @@
             },
             "share": "30",
             "value": "2.55"
+        },
+        {
+            "date": "2023-06-30",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "03",
+            "value": "0.86"
         },
         {
             "date": "2023-07-03",
@@ -541,34 +541,19 @@
             "value": "15.55"
         },
         {
-            "date": "2023-11-21",
+            "date": "2023-11-14",
             "asset": {
-                "id": "7",
-                "symbol": "PETR4",
-                "name": "Petrobras",
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
                 "user_id": "1",
                 "asset_type": {
-                    "id": "2",
-                    "name": "Stock"
+                    "id": "1",
+                    "name": "FII"
                 }
             },
-            "share": "22",
-            "value": "4.60"
-        },
-        {
-            "date": "2023-11-21",
-            "asset": {
-                "id": "7",
-                "symbol": "PETR4",
-                "name": "Petrobras",
-                "user_id": "1",
-                "asset_type": {
-                    "id": "2",
-                    "name": "Stock"
-                }
-            },
-            "share": "22",
-            "value": "6.83"
+            "share": "52",
+            "value": "57.72"
         },
         {
             "date": "2023-11-16",
@@ -601,21 +586,6 @@
             "value": "11.70"
         },
         {
-            "date": "2023-11-14",
-            "asset": {
-                "id": "1",
-                "symbol": "KNCR11",
-                "name": "Kinea Rendimentos Imobiliários FII",
-                "user_id": "1",
-                "asset_type": {
-                    "id": "1",
-                    "name": "FII"
-                }
-            },
-            "share": "52",
-            "value": "57.72"
-        },
-        {
             "date": "2023-11-16",
             "asset": {
                 "id": "3",
@@ -629,6 +599,51 @@
             },
             "share": "51",
             "value": "28.56"
+        },
+        {
+            "date": "2023-11-21",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "22",
+            "value": "4.60"
+        },
+        {
+            "date": "2023-11-21",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "22",
+            "value": "6.83"
+        },
+        {
+            "date": "2023-11-21",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "435",
+            "value": "26.53"
         },
         {
             "date": "2023-11-30",
@@ -659,6 +674,51 @@
             },
             "share": "57",
             "value": "5.81"
+        },
+        {
+            "date": "2023-12-13",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "67",
+            "value": "67.67"
+        },
+        {
+            "date": "2023-12-14",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "23",
+            "value": "17.94"
+        },
+        {
+            "date": "2023-12-14",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "21",
+            "value": "23.10"
         },
         {
             "date": "2023-12-15",
@@ -706,21 +766,6 @@
             "value": "12.64"
         },
         {
-            "date": "2023-11-21",
-            "asset": {
-                "id": "4",
-                "symbol": "CPTS11",
-                "name": "Capitânia Securities II",
-                "user_id": "1",
-                "asset_type": {
-                    "id": "1",
-                    "name": "FII"
-                }
-            },
-            "share": "435",
-            "value": "26.54"
-        },
-        {
             "date": "2023-12-28",
             "asset": {
                 "id": "5",
@@ -732,8 +777,38 @@
                     "name": "Stock"
                 }
             },
-            "share": "65",
-            "value": "18.91"
+            "share": "73",
+            "value": "21.24"
+        },
+        {
+            "date": "2023-12-14",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "517",
+            "value": "36.19"
+        },
+        {
+            "date": "2023-12-19",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "560",
+            "value": "34.16"
         }
     ]
 }

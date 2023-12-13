@@ -50,6 +50,12 @@ export class MonthlyTransactionsComponent implements OnInit {
       .subscribe((rsp: any = {}) => {
         let transactions = rsp.data;
 
+        transactions.sort((a: any, b: any) => {
+          return new Date(a.date).valueOf() - new Date(b.date).valueOf(); // ascending
+        });
+
+        console.log(transactions);
+
         this.chartOptions.data[0].dataPoints = [
           { label: "Jan", y: 0 },
           { label: "Fev", y: 0 },
