@@ -2118,6 +2118,214 @@
             "quantity": 3,
             "value": 10.64,
             "total": 31.92
+        },
+        {
+            "trade_date": "2023-12-14",
+            "asset": {
+                "id": "11",
+                "symbol": "RURA11",
+                "name": "Itau Asset Rural Fiagro Imobiliario",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "13",
+            "value": "10.60",
+            "total": "137.80"
+        },
+        {
+            "trade_date": "2023-12-15",
+            "asset": {
+                "id": "11",
+                "symbol": "RURA11",
+                "name": "Itau Asset Rural Fiagro Imobiliario",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "10.61",
+            "total": "42.44"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "4",
+                "symbol": "CPTS11",
+                "name": "Capitânia Securities II",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "62",
+            "value": "8.03",
+            "total": "497.86"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "5",
+            "value": "102.048",
+            "total": "510.24"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "3",
+            "value": "160.9",
+            "total": "482.7"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "56",
+            "value": "8.86",
+            "total": "496.16"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "4",
+            "value": "106.34",
+            "total": "425.36"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "34",
+            "value": "10.12",
+            "total": "344.08"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "8",
+            "value": "54.69",
+            "total": "437.52"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "9",
+            "value": "37.43",
+            "total": "336.87"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "11",
+                "symbol": "RURA11",
+                "name": "Itau Asset Rural Fiagro Imobiliario",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "17",
+            "value": "10.65",
+            "total": "181.05"
+        },
+        {
+            "trade_date": "2023-12-20",
+            "asset": {
+                "id": "7",
+                "symbol": "PETR4",
+                "name": "Petrobras",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "quantity": "9",
+            "value": "36.54",
+            "total": "328.86"
+        },
+        {
+            "trade_date": "2023-12-28",
+            "asset": {
+                "id": "11",
+                "symbol": "RURA11",
+                "name": "Itau Asset Rural Fiagro Imobiliario",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "quantity": "2",
+            "value": "10.94",
+            "total": "21.88"
         }
     ]
 }

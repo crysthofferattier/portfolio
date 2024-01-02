@@ -721,6 +721,21 @@
             "value": "23.10"
         },
         {
+            "date": "2023-12-14",
+            "asset": {
+                "id": "3",
+                "symbol": "BCFF11",
+                "name": "BTG Pactual Fundo de Fundos",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "517",
+            "value": "36.19"
+        },
+        {
             "date": "2023-12-15",
             "asset": {
                 "id": "8",
@@ -766,36 +781,6 @@
             "value": "12.64"
         },
         {
-            "date": "2023-12-28",
-            "asset": {
-                "id": "5",
-                "symbol": "BBAS3",
-                "name": "Banco do Brasil",
-                "user_id": "1",
-                "asset_type": {
-                    "id": "2",
-                    "name": "Stock"
-                }
-            },
-            "share": "73",
-            "value": "21.24"
-        },
-        {
-            "date": "2023-12-14",
-            "asset": {
-                "id": "3",
-                "symbol": "BCFF11",
-                "name": "BTG Pactual Fundo de Fundos",
-                "user_id": "1",
-                "asset_type": {
-                    "id": "1",
-                    "name": "FII"
-                }
-            },
-            "share": "517",
-            "value": "36.19"
-        },
-        {
             "date": "2023-12-19",
             "asset": {
                 "id": "4",
@@ -809,6 +794,21 @@
             },
             "share": "560",
             "value": "34.16"
+        },
+        {
+            "date": "2023-12-28",
+            "asset": {
+                "id": "5",
+                "symbol": "BBAS3",
+                "name": "Banco do Brasil",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "73",
+            "value": "21.24"
         }
     ]
 }

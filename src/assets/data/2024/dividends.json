@@ -16,6 +16,81 @@
             "value": "6.08"
         },
         {
+            "date": "2024-01-08",
+            "asset": {
+                "id": "11",
+                "symbol": "RURA11",
+                "name": "Itau Asset Rural Fiagro Imobiliario",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "41",
+            "value": "4.10"
+        },
+        {
+            "date": "2024-01-12",
+            "asset": {
+                "id": "1",
+                "symbol": "KNCR11",
+                "name": "Kinea Rendimentos Imobiliários FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "87",
+            "value": "87.87"
+        },
+        {
+            "date": "2024-01-15",
+            "asset": {
+                "id": "2",
+                "symbol": "HGLG11",
+                "name": "CSHG Logística",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "27",
+            "value": "29.70"
+        },
+        {
+            "date": "2024-01-15",
+            "asset": {
+                "id": "9",
+                "symbol": "XPLG11",
+                "name": "XP Log Fundo de Investimento Imobiliario-FII",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "1",
+                    "name": "FII"
+                }
+            },
+            "share": "31",
+            "value": "24.18"
+        },
+        {
+            "date": "2024-01-16",
+            "asset": {
+                "id": "8",
+                "symbol": "TAEE11",
+                "name": "Transmissora Alianca de Energia Eltrc SA",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "85",
+            "value": "56.26"
+        },
+        {
             "date": "2024-02-20",
             "asset": {
                 "id": "7",
@@ -104,6 +179,21 @@
             },
             "share": "177",
             "value": "7.75"
+        },
+        {
+            "date": "2024-12-30",
+            "asset": {
+                "id": "6",
+                "symbol": "ITSA4",
+                "name": "Itaúsa",
+                "user_id": "1",
+                "asset_type": {
+                    "id": "2",
+                    "name": "Stock"
+                }
+            },
+            "share": "350",
+            "value": "23.62"
         }
     ]
 }
